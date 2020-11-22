@@ -11,7 +11,7 @@ public class Application {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
-		System.out.println("Starting!!!");
+// 		System.out.println("Starting!!!");
 		
 		DirectoryObserver directoryObserver = new DirectoryObserver(
 				new ConfigurationProvider());
@@ -22,7 +22,7 @@ public class Application {
 //		ImageProcessor ip = new ImageProcessor(new ConfigurationProvider());
 //		ip.transform("1.jpg");
 		
-        System.out.println("Finished!");
+//         System.out.println("Finished!");
 		
 
 }
