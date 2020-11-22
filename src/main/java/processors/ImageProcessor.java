@@ -32,7 +32,7 @@ public class ImageProcessor {
 	BufferedImageOp resampler = new ResampleOp(200,200,ResampleOp.FILTER_LANCZOS);
 	BufferedImage bir = resampler.filter(bio, null);
 	
-	System.out.println("FILE PROCESSED >> "+fileName);
+// 	System.out.println("FILE PROCESSED >> "+fileName);
 	ImageIO.write(bir, "jpeg", new File(cp.get("path.processed")+fileName));
 	}
 }
