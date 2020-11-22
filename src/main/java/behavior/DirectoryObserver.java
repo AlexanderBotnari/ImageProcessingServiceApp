@@ -47,8 +47,8 @@ public class DirectoryObserver {
 				}
 			});
 			if(!Arrays.equals(lastFiles, files) && files != null ) {
-				System.out.println("------------------");
-				System.out.println("FOUND FILES : ");
+// 				System.out.println("------------------");
+// 				System.out.println("FOUND FILES : ");
 				
 				for (File file : files) {
 					if(!file.isDirectory()) {
